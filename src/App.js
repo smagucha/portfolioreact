@@ -1,14 +1,23 @@
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import Maincontent from "./components/Main"
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Home from "./components/home";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Project from './components/projects';
+
 
 function App() {
   return (
-    <div className="App">
-    <Header />
-    <Maincontent />
-    <Footer name='sammy maagucha'/>
-    </div>
+    <Router>
+        <div>
+          <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/contact' component={Contact} />
+              <Route path='/about' component={About} />
+              <Route path='/projects' component={Project} />
+          </Switch>
+        </div>
+      </Router>
   );
 }
 
