@@ -45,4 +45,32 @@ img {
 
 .maincontent{
 	height: 70vh;
+	font-family: courier;
+}
+
+.innerdiv{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.innerdiv ol li{
+	padding: 5px;
+	margin-left: 35px;
+
+}
+.innerdiv ol{
+	padding: 20px;
+}
+
+.innerdiv li{
+	float:  none;
+	color: black;
+}
+.box{
+	height: 50%;
+	width: 32%;
+	float: left;
+	border: 1px solid;
+	border-radius: 8px;
+	margin:  3px;
 }
