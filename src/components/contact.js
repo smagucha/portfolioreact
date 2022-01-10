@@ -19,7 +19,7 @@ const Contact =() =>{
             		<p><label>your fullname</label>
             		<input type="text" name="name"/></p>
             		<p><label>email</label>
-            		<input type="email" name='user_name'/></p>
+            		<input type="email" name="user_email"/></p>
             		<p><label>Message</label>
             		<textarea name="message" id="textneso" cols="30" rows="10"></textarea></p>
             		<p><input type="submit" value='send email' /></p>

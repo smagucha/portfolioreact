@@ -22,3 +22,32 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+@media (max-width: 768px) {
+  ul {
+  margin : 0px;
+  padding: 0px; 
+  background: orange;
+
+   }
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+    padding: 5px 5px;
+    display: inline-block;
+    width: 100%;
+  }
+  li a{
+  text-decoration: none;
+  width: 100%;
+
+  }
+
+  li{
+    text-align: center;
+
+  }
+ 
+  
+}
+

@@ -4,7 +4,7 @@ import Maincontent from "./Main"
 
 function Home() {
   return (
-    <div className="App">
+    <div>
     <Header/>
     <Maincontent />
     <Footer/>
