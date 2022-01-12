@@ -5,6 +5,7 @@
 	padding: 20px;
 	height: 60vh;
 	border-radius: 8px;
+  margin-top: 5%;
 }
 
 input[type=text],input[type=email], textarea {
